@@ -14,7 +14,7 @@ https://unsplash.com/photos/three-rocks-near-duck-in-water-99F4mC79j1I
 
 ![toronto.png](pics%2Ftoronto.png)
 
-## If you search London and you click on "Wednesday"
+## If you search London and you click on "Tuesday"
 
 ![londonTuesday.png](pics%2FlondonTuesday.png)
 
