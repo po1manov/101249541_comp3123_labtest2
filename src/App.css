@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-image: url('./weather_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.App-header {
+  color: #333;
+  margin-top: 20px;
+}
+
+.weather-card {
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #ffffff, #36454F);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(to bottom right, #ffffff, #9ea7b7);
+}
+
+.weather-day {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.weather-temp {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.weather-icon {
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
+}
+
+.weather-details {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.detail-item {
+  font-size: 0.9em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.search-input {
+  font-size: 3em;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.search-container {
+  text-align: center;
+}
+
+.search-container input[type="text"] {
+  font-size: 1.2em;
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  cursor: pointer;
+}
